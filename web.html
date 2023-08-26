@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Covertor</title>
+    
+    <link rel="stylesheet" href="web.css">
+
+</head>
+
+<body>
+    <form action="" id="form">
+        <div class="container">
+
+            <!-- <fieldset> -->
+            <h2>Temperature Convertor</h2>
+            <div class="input">
+
+                <label for="degrees">Degrees:
+                    <input type="number" name="degrees" id="degrees" placeholder="Enter the Tempertaure In Degrees">
+                </label>
+
+                <label for="unitselector">Type:
+                    <select name="" id="unitselector" required>
+                        <option value="Choose" selected>Please Choose an Option</option>
+                        <option value="F">Fahreneit</option>
+                        <option value="K">Kelvin</option>
+                        <option value="C">Celcius</option>
+                    </select>
+                </label>
+            </div>
+            <div id="convert">
+                <button>Convert</button>
+            </div>
+            <!-- </fieldset> -->
+            <div class="output">
+                <p id="getoutput" class="res">Result:</p>
+                <p id="result" class="res"> </p>
+            </div>
+        </div>
+    </form>
+
+    <script src="web.js"></script>
+
+</body>
+
+</html>
